@@ -1,16 +1,19 @@
 import React from 'react';
 
 let CurrentTemp = (props) => {
-  let conditions = "";
+  let conditions = "", temp = 0, loc = 'none';
+
   if(props.data.data.weather) {
     conditions = props.data.data.weather[0].main;
+    temp = Math.round(props.data.data.main.temp * (9/5) - 459.67);
+    loc = props.data.data.name;
   }
-  console.log(props.data)
+
   return (
     <div className="current-temp">
-      <h1 className="temp">92&deg;F</h1>
-      <h2>{props.data.data.name} - {props.data.zip}</h2>
-      <p>{conditions} Skys</p>
+      <h1 className="temp">{temp}&deg;F</h1>
+      <h2>{loc} - {props.data.zip}</h2>
+      <p>{conditions}</p>
     </div>
   )
 }

@@ -16,6 +16,11 @@ class App extends React.Component {
 
   componentDidMount() {
     this.fetchData();
+    // let exdata = {"coord":{"lon":-86.88,"lat":35.93},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"base":"stations","main":{"temp":286.68,"pressure":1019,"humidity":33,"temp_min":284.15,"temp_max":289.26},"visibility":16093,"wind":{"speed":5.7,"deg":260,"gust":8.2},"rain":{"1h":0.25},"clouds":{"all":1},"dt":1574883051,"sys":{"type":1,"id":4609,"country":"US","sunrise":1574858144,"sunset":1574894091},"timezone":-21600,"id":0,"name":"Franklin","cod":200};
+
+    // this.setState({
+    //   currentLocation : {zip: '37912', data : exdata}
+    // })
   }
 
   fetchData () {
