@@ -34,7 +34,63 @@ let AddLocation = (props) => {
           </form>
         </div>
         <div id="tab-view-loc" className="tab" style={{'display':'none'}}>
-          <h2>These are your locations</h2>
+          <table>
+            <tr>
+              <th>Zip Code</th>
+              <th>Last Active</th>
+              <th>Set Active</th>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+            <tr>
+              <td>37064</td>
+              <td>10 minutes ago</td>
+              <td className="setBtn"><button>Set</button></td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>

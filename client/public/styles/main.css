@@ -90,3 +90,11 @@ button:hover {
   background: rgb(78, 78, 78);
   color: #fff;
 }
+
+.tab td,
+.tab th {
+  border: 1px solid #fff;
+}
+.tab .setBtn {
+  text-align: center;
+}
