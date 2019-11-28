@@ -1,11 +1,13 @@
 import React from 'react';
+import convertTemp from '../util/covertTemp';
 
 let CurrentTemp = (props) => {
+  console.log(props);
   let conditions = "", temp = 0, loc = 'none';
 
   if(props.data.data.weather) {
     conditions = props.data.data.weather[0].main;
-    temp = Math.round(props.data.data.main.temp * (9/5) - 459.67);
+    temp = convertTemp(props.data.data.main.temp);
     loc = props.data.data.name;
   }
 

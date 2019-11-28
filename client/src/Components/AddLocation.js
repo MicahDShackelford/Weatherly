@@ -35,61 +35,40 @@ let AddLocation = (props) => {
         </div>
         <div id="tab-view-loc" className="tab" style={{'display':'none'}}>
           <table>
-            <tr>
-              <th>Zip Code</th>
-              <th>Last Active</th>
-              <th>Set Active</th>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
-            <tr>
-              <td>37064</td>
-              <td>10 minutes ago</td>
-              <td className="setBtn"><button>Set</button></td>
-            </tr>
+            <thead>
+              <tr>
+                <th>Zip Code</th>
+                <th>Last Active</th>
+                <th>Set Active</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>37064</td>
+                <td>10 minutes ago</td>
+                <td className="setBtn"><button>Set</button></td>
+              </tr>
+              <tr>
+                <td>37064</td>
+                <td>10 minutes ago</td>
+                <td className="setBtn"><button>Set</button></td>
+              </tr>
+              <tr>
+                <td>37064</td>
+                <td>10 minutes ago</td>
+                <td className="setBtn"><button>Set</button></td>
+              </tr>
+              <tr>
+                <td>37064</td>
+                <td>10 minutes ago</td>
+                <td className="setBtn"><button>Set</button></td>
+              </tr>
+              <tr>
+                <td>37064</td>
+                <td>10 minutes ago</td>
+                <td className="setBtn"><button>Set</button></td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
